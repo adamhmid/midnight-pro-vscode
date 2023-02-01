@@ -1,0 +1,13 @@
+# Ignore everything.
+*
+*/**
+
+# Whitelist what you need.
+!images/icon/logo.png
+!themes
+!themes/*
+!package.json
+!CHANGELOG.md
+!CODE-OF-CONDUCT.md
+!LICENSE.md
+!README.md
