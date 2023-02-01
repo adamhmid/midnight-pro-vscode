@@ -1,0 +1,72 @@
+{
+  "name": "midnight-synth-purple",
+  "displayName": "Midnight Synth Purple",
+  "description": "🦄 A professional theme suite with hand-picked & bold Midnight Synth Purple for your VS Code editor and terminal apps. One of the excellent, most downloaded, and top-rated VSCode Themes on the marketplace. Part of VSCode.pro course.",
+  "version": "1.0.0",
+  "publisher": "adamhmid",
+  "license": "MIT",
+  "icon": "images/icon/logo.png",
+  "galleryBanner": {
+    "color": "#222145",
+    "theme": "dark"
+  },
+  "homepage": "https://github.com/adamhmid/midnight-synth-purple-vscode",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adamhmid/midnight-synth-purple-vscode"
+  },
+  "bugs": {
+    "url": "https://github.com/adamhmid/midnight-synth-purple-vscode/issues"
+  },
+  "engines": {
+    "vscode": "^1.61.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "Midnight Synth Purple",
+    "Midnight Synth",
+    "Midnight",
+    "Synth",
+    "Purple",
+    "Shades of Purple",
+    "Shade of Purple",
+    "Cobalt",
+    "Dark Theme",
+    "VSCode Power User"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Midnight Synth Purple",
+        "uiTheme": "vs-dark",
+        "path": "./themes/midnight-synth-purple-dark.json"
+      }
+    ]
+  },
+  "scripts": {
+    "start": "nodemon --exec vsce package",
+    "test": "prettier --write ./themes/midnight-synth-purple-dark.json",
+    "prettier-fix": "prettier --write .",
+    "commit": "cz",
+    "package": "vsce package",
+    "publish": "vsce publish",
+    "semantic-release": "semantic-release"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.2",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^8.0.7",
+    "@vscode/vsce": "^2.17.0",
+    "commitizen": "^4.3.0",
+    "nodemon": "^2.0.20",
+    "prettier": "^2.8.3",
+    "semantic-release": "^20.1.0",
+    "semantic-release-stop-before-publish": "^1.0.0",
+    "semantic-release-vsce": "^5.5.6"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

@@ -1,0 +1,46 @@
+# This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
+
+name: Release
+
+on:
+  workflow_dispatch:
+
+jobs:
+  release:
+    if: ${{ github.ref == 'refs/heads/main' }}
+    # permissions:
+    #   contents: write #  to be able to publish a GitHub release
+    #   issues: write #  to be able to comment on released issues
+    #   pull-requests: write #  to be able to comment on released pull requests
+
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v3.3.0
+        with:
+          fetch-depth: 0
+
+      - name: Use Node.js v18.13.0 💎
+        uses: actions/setup-node@v3.6.0
+        with:
+          node-version: 18.13.0
+
+      - name: Install dependencies 📦
+        run: |
+          curl -L https://get.pnpm.io/v6.16.js | node - add --global pnpm@next-7 npm@9
+          pnpm install
+
+      - name: Bump version in package.json ⬆️
+        uses: phips28/gh-action-bump-version@v9.1.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          skip-tag: "true"
+          commit-message: "chore(release): {{version}} [skip ci]"
+
+      - name: Publish release 🚀
+        run: pnpm semantic-release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          VSCE_PAT: ${{ secrets.VSCE_PAT }}
