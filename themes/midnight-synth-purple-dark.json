@@ -970,6 +970,14 @@
       }
     },
     {
+      "name": "[JAVASCRIPT] — new types",
+      "scope": "keyword.operator.new",
+      "settings": {
+        // "foreground": "#FEDE5D"
+        "foreground": "#53D49E"
+      }
+    },
+    {
       "name": "[JAVASCRIPT] — Storage types",
       "scope": [
         "storage.type",
