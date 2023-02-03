@@ -951,6 +951,7 @@
       "scope": ["keyword.control.export.js", "keyword.control.import.js"],
       "settings": {
         "foreground": "#ff3bef"
+        // "foreground": "#FEDE5D"
       }
     },
     {
