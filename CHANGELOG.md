@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/adamhmid/midnight-synth-purple-vscode/compare/v1.1.0...v1.2.0) (2023-02-04)
+
+
+### Features
+
+* **theme:** add color for javascript ([89858e3](https://github.com/adamhmid/midnight-synth-purple-vscode/commit/89858e33c797cbfe7849d743c9c17c6258d53221))
+
 # [1.1.0](https://github.com/adamhmid/midnight-synth-purple-vscode/compare/v1.0.0...v1.1.0) (2023-02-02)
 
 
