@@ -9,7 +9,7 @@
 
 **Full Changelog**: https://github.com/adamhmid/midnight-synth-purple-vscode/compare/v1.0.0...v1.1.0
 
-## [1.0.0](https://github.com/adamhmid/midnight-synth-purple-vscode/commit/1c77f614bc735b3723019c09a09458079e5f71a7) (2023-02-01)
+# [1.0.0](https://github.com/adamhmid/midnight-synth-purple-vscode/commit/1c77f614bc735b3723019c09a09458079e5f71a7) (2023-02-01)
 
 
 ### Initial Release
