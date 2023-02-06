@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/adamhmid/midnight-synth-purple-vscode/compare/v1.2.0...v1.3.0) (2023-02-06)
+
+
+### Features
+
+* **color:** add color for async await ([2aa808d](https://github.com/adamhmid/midnight-synth-purple-vscode/commit/2aa808ddf2d2de22e03dd556b9aa98b41fccc565))
+
 # [1.2.0](https://github.com/adamhmid/midnight-synth-purple-vscode/compare/v1.1.0...v1.2.0) (2023-02-04)
 
 
