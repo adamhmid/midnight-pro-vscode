@@ -958,8 +958,8 @@
       "name": "[JAVASCRIPT] — async await or return Types",
       "scope": ["storage.modifier.async.js", "keyword.control.flow.js"],
       "settings": {
-        "foreground": "#FEDE5D"
-        // "foreground": "#00E8C6"
+        // "foreground": "#FEDE5D"
+        "foreground": "#e8007c"
       }
     },
     {
