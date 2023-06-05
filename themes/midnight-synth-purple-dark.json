@@ -1471,24 +1471,17 @@
       }
     },
     {
-      "name": "[YML] — KEYWORDS",
-      "scope": ["entity.name.tag.yaml"],
-      "settings": {
-        "foreground": "#FAD000"
-      }
-    },
-    {
-      "name": "[YML] — Punctuation",
-      "scope": ["punctuation.definition.block.sequence.item.yaml"],
-      "settings": {
-        "foreground": "#E1EFFF"
-      }
-    },
-    {
       "name": "[PHP] - Keywords for definition",
       "scope": ["storage.type.function.php", "meta.function.parameters.php"],
       "settings": {
         "foreground": "#FB94FF"
+      }
+    },
+    {
+      "name": "[PHP] - echo",
+      "scope": ["support.function.construct.output.php"],
+      "settings": {
+        "foreground": "#FF7EDB"
       }
     },
     {
@@ -1701,6 +1694,20 @@
       "scope": ["keyword.key.toml"],
       "settings": {
         "foreground": "#FAD000"
+      }
+    },
+    {
+      "name": "[YML] — KEYWORDS",
+      "scope": ["entity.name.tag.yaml"],
+      "settings": {
+        "foreground": "#FAD000"
+      }
+    },
+    {
+      "name": "[YML] — Punctuation",
+      "scope": ["punctuation.definition.block.sequence.item.yaml"],
+      "settings": {
+        "foreground": "#E1EFFF"
       }
     },
     {
