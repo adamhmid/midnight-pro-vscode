@@ -1,5 +1,5 @@
 /**
- * Demo of Shades of Purple VSCode theme.
+ * Demo of Midnight Pro VSCode theme.
  *
  * I'm 💜'ing it.
  */
@@ -39,7 +39,7 @@ class VSCode extends React.Component {
           {this.props.value}
         </button>
         <Message>
-          Testing the React.js Syntax in VSCode Shades of Purple 💜 theme.
+          Testing the React.js Syntax in VSCode Midnight Pro 💜 theme.
         </Message>
       </Wrap>
     );

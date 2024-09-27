@@ -1,5 +1,5 @@
 /**
- * JavaScript: Shades of purple can be genius
+ * JavaScript: Midnight Pro can be genius
  *
  * @param String hello Hello.
  * @since 1.0.0
@@ -8,7 +8,7 @@
 // String.
 const world = "🗺️";
 
-const sop = "🦄 Shades of Purple is an awesome syntax highlighting theme.";
+const sop = "🦄 Midnight Pro is an awesome syntax highlighting theme.";
 console.log("sop", sop);
 
 // Class.
@@ -76,7 +76,7 @@ export const speedCSS = (one, two, three) => {
 if (ahmad) {
   console.log("Ahmad loves open source");
 } else if (awais) {
-  console.log("Awais is making 🦄 Shades of Purple");
+  console.log("Awais is making 🦄 Midnight Pro");
 } else {
   console.log("Call it SOP for brevity");
 }

@@ -1,7 +1,7 @@
 {
-  "name": "midnight-synth-purple",
-  "displayName": "Midnight Synth Purple",
-  "description": "🦄 A professional theme suite with hand-picked & bold Midnight Synth Purple for your VS Code editor and terminal apps. One of the excellent, most downloaded, and top-rated VSCode Themes on the marketplace. Part of VSCode.pro course.",
+  "name": "midnight-pro",
+  "displayName": "Midnight Pro",
+  "description": "A professional theme featuring the striking Midnight Purple to enhance your VSCode experience. Theme updates are released regularly to keep it current. It’s one of the highest-rated themes on the VS Code Marketplace.",
   "version": "1.5.0",
   "publisher": "adamhmid",
   "license": "MIT",
@@ -10,13 +10,13 @@
     "color": "#222145",
     "theme": "dark"
   },
-  "homepage": "https://github.com/adamhmid/midnight-synth-purple-vscode",
+  "homepage": "https://github.com/adamhmid/midnight-pro-vscode",
   "repository": {
     "type": "git",
-    "url": "https://github.com/adamhmid/midnight-synth-purple-vscode"
+    "url": "https://github.com/adamhmid/midnight-pro-vscode"
   },
   "bugs": {
-    "url": "https://github.com/adamhmid/midnight-synth-purple-vscode/issues"
+    "url": "https://github.com/adamhmid/midnight-pro-vscode/issues"
   },
   "engines": {
     "vscode": "^1.61.0"
@@ -25,13 +25,11 @@
     "Themes"
   ],
   "keywords": [
-    "Midnight Synth Purple",
-    "Midnight Synth",
+    "Midnight Pro",
     "Midnight",
+    "Pro",
     "Synth",
     "Purple",
-    "Shades of Purple",
-    "Shade of Purple",
     "Cobalt",
     "Dark Theme",
     "VSCode Power User"
@@ -39,14 +37,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Midnight Synth Purple",
+        "label": "Midnight Pro",
         "uiTheme": "vs-dark",
-        "path": "./themes/midnight-synth-purple-dark.json"
+        "path": "./themes/midnight-pro-dark.json"
       }
     ]
   },
   "scripts": {
-    "test": "prettier --write ./themes/midnight-synth-purple-dark.json",
+    "test": "prettier --write ./themes/midnight-pro-dark.json",
     "prettier-fix": "prettier --write .",
     "commit": "git add . && cz"
   },

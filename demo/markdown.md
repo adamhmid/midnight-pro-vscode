@@ -1,16 +1,16 @@
-# Shades of Purple Theme for VS Code
+# Midnight Pro Theme for VS Code
 
-![Install](https://raw.githubusercontent.com/ahmadawais/shades-of-purple-vscode/master/images/2_video_demo.png)
+![Install](https://raw.githubusercontent.com/adamhmid/midnight-pro-vscode/master/images/2_video_demo.png)
 
 ## Easy Installation
 
 1. Open the extensions sidebar on Visual Studio Code
-2. Search for **Shades of Purple Theme**
+2. Search for **Midnight Pro Theme**
 3. Click **Install** to _install_ it.
 4. Click **Reload** to reload the your editor.
-5. Code/File ＞ Preferences ＞ Color Theme ＞ **Shades of Purple**.
+5. Code/File ＞ Preferences ＞ Color Theme ＞ **Midnight Pro**.
 
-![alternate installation](https://raw.githubusercontent.com/ahmadawais/shades-of-purple-vscode/master/images/5_alternate_installation.png)
+![alternate installation](https://raw.githubusercontent.com/adamhmid/midnight-pro-vscode/master/images/5_alternate_installation.png)
 
 ### Otherwise
 
@@ -18,15 +18,15 @@
 2. Paste the command `ext install shades-of-purple`
 3. Click **Install** to install it.
 4. Click **Reload** to reload the your editor.
-5. Code/File ＞ Preferences ＞ Color Theme ＞ **Shades of Purple**.
+5. Code/File ＞ Preferences ＞ Color Theme ＞ **Midnight Pro**.
 
-![License & Attribution thanks](https://raw.githubusercontent.com/ahmadawais/shades-of-purple-vscode/master/images/12_license.png)
+![License & Attribution thanks](https://raw.githubusercontent.com/adamhmid/midnight-pro-vscode/master/images/12_license.png)
 
 ## Thanks
 
 Thanks to VSCode team at Microsoft for creating such an awesome code editor. Also to the creator of other high contrast themes that served as an inspiration.
 
-Say 👋 to me on Twitter via `@MrAhmadAwais`
+Say 👋 to me on Twitter via `@adamhm_id`
 
 ```JS
 // JavaScript Sum functions.
@@ -39,7 +39,7 @@ function sum( x, y ) { return x + y; }
 ```
 
 > Cool markdown block-quote, the syntax is hidden and you can just write stuff.
-> Follow Ahmad on [Twitter @MrAhmadAwais →](https://twitter.com/MrAhmadAwais/)
+> Follow Ahmad on [Twitter @adamhm_id →](https://twitter.com/adamhm_id/)
 
 ---
 
@@ -115,14 +115,14 @@ Retained line
 | **LINK**: Regular              |                                 [Link](https://awais.dev) |
 | **LINK**: Alternate            |                                         [Alternate][link] |
 | **IMAGE**: Regular             |                         ![Alt](https://awais.dev/sopicon) |
-| **IMAGE**: Regular + Title     | ![Alt](https://awais.dev/sopicon "Shades of Purple icon") |
+| **IMAGE**: Regular + Title     | ![Alt](https://awais.dev/sopicon "Midnight Pro icon") |
 | **IMAGE**: With Link           |    [![Alt](https://awais.dev/sopicon)](https://awais.dev) |
 | **IMAGE**: With alternate Link |                 [![Alt](https://awais.dev/sopicon)][link] |
 
 - [Link](https://awais.dev)
 - [Alternate][link]
 - ![Alt](https://awais.dev/sopicon)
-- ![Alt](https://awais.dev/sopicon "Shades of Purple icon")
+- ![Alt](https://awais.dev/sopicon "Midnight Pro icon")
 - [![Alt](https://awais.dev/sopicon)](https://awais.dev)
 - [![Alt](https://awais.dev/sopicon)][link]
 
