@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/adamhmid/midnight-pro-vscode/compare/v1.6.0...v1.7.0) (2024-09-27)
+
+
+### Features
+
+* **theme:** change logo ([5c314cb](https://github.com/adamhmid/midnight-pro-vscode/commit/5c314cbfd5b55315294a3dbb50b25962b5d51b1e))
+
 # [1.6.0](https://github.com/adamhmid/midnight-pro-vscode/compare/v1.5.0...v1.6.0) (2024-09-27)
 
 
