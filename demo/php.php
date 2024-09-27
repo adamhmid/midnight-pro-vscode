@@ -2,7 +2,7 @@
 /**
  * PHP is fun
  *
- * Shades of purple is genius.
+ * Midnight Pro is genius.
  *
  * @param String hello Hello.
  * @param Number count Count of hells said.

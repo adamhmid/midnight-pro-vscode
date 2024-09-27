@@ -2,7 +2,7 @@
   // Theme Color reference.
   // https://code.visualstudio.com/docs/getstarted/theme-color-reference
   "$schema": "vscode://schemas/color-theme",
-  "name": "Midnight Synth Purple (DARK)",
+  "name": "Midnight Pro (DARK)",
   "type": "dark",
   "colors": {
     //* Activity Bar.
