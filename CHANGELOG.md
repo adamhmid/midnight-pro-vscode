@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/adamhmid/midnight-pro-vscode/compare/v1.5.0...v1.6.0) (2024-09-27)
+
+
+### Features
+
+* **theme:** change theme name ([d5996d7](https://github.com/adamhmid/midnight-pro-vscode/commit/d5996d7a77a044ea2f245fa7cb06e0721a4016eb))
+
 # [1.5.0](https://github.com/adamhmid/midnight-pro-vscode/compare/v1.4.0...v1.5.0) (2024-09-19)
 
 
